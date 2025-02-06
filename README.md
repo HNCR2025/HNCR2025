@@ -102,7 +102,7 @@ In the menu bar, select File > Build Settings....
 
 ● Configure Visual Studio for Hololens by selecting the Release configuration and the ARM64 architecture enter image description here
 
-## NOTE: If you don't see "Device" as a target option in Visual Studio, you may need to change the startup project for the solution from the IL2CPP project to the UWP project. To do this, in the Solution Explorer, right-click [your project name](Universal Windows) and then select Set as StartUp Project. Before building to your device, the device must be in Developer Mode and paired with your development computer. See the section named "Enabling Developer Mode" on this page.
+### NOTE: If you don't see "Device" as a target option in Visual Studio, you may need to change the startup project for the solution from the IL2CPP project to the UWP project. To do this, in the Solution Explorer, right-click [your project name](Universal Windows) and then select Set as StartUp Project. Before building to your device, the device must be in Developer Mode and paired with your development computer. See the section named "Enabling Developer Mode" on this page.
 
 ● Select the deployment target drop-down and then do one of the following: If you're building and deploying via USB, select Device.
 
