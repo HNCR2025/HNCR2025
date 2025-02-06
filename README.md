@@ -25,8 +25,11 @@ Fino Andrea up has contributed to the creation of the C# code and the developmen
 
 
 # INSTRUCTION MANUAL
+
 ● In settings, look for developer mode and activate it.
+
 ● Download and install Unity Hub on your PC
+
 ● Download the HoloTrainer folder on your machine,
 ● If the multiple files are not already in a folder, put them in one 
 ● THIS FOLDER BECOMES YOUR UNITY PROJECT
