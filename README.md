@@ -1,7 +1,9 @@
 PCTO2024
+
 This repository contains all of the code, examples and sketches used during our GameAbility Unity game project HNCR( Hololens Cell Nerve Recovery).
 
 TEAM
+
 Our team is composed of 4 ITIS students from Cuneo, Italy.
 
 FENOGLIO SAMUELE
