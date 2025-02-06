@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PCTO 2024 - GameAbility Unity Project</title>
+    <title>PCTO 2025 - GameAbility Unity Project</title>
     <style>
         body {
             font-family: Arial, sans-serif;
