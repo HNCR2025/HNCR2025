@@ -31,60 +31,82 @@ Fino Andrea up has contributed to the creation of the C# code and the developmen
 ● Download and install Unity Hub on your PC
 
 ● Download the HoloTrainer folder on your machine,
+
 ● If the multiple files are not already in a folder, put them in one 
+
 ● THIS FOLDER BECOMES YOUR UNITY PROJECT
+
 ● Open Unity Hub
+
 ● On the left-hand side of the window, you will find the Projects tab
+
 ● Click Add
+
 ● Select the folder which contains the project
+
 ● The project will get added below the Add button
+
 ● Open the project
+
 ● Now it will ask you to download the right Unity version (2022.3.20f1 LTS)
+
 ● With Unity it will in the installs tab a menu with different options you can checkmark
+
 ● Checkmark Visual Studio Community 2022, Universal Windows Platform Build Support, Windows Build Support(IL2CPP)
+
 ● Click Install
+
 ● It will open the Visual Studio Installer window
+
 ● In this window checkmark ● .NET desktop development_
+
 ● Desktop development with C++
+
 ● Universal Windows Platform (UWP) development
-● Game development with Unity,
-On the right-hand side of the screen click Universal Windows Platform (UWP) development
-● checkmark * ● USB Device Connectivity (required to deploy/debug to HoloLens over USB)
-● C++ (v143) Universal Windows Platform tools*
+
+● Game development with Unity, On the right-hand side of the screen click Universal Windows Platform (UWP) development
+● checkmark 
+
+● USB Device Connectivity (required to deploy/debug to HoloLens over USB)
+
+● C++ (v143) Universal Windows Platform tools
+
 ● Click Install
+
 # Now you want to build the project
 In the menu bar, select File > Build Settings....
 
-In the Build Settings window, select Universal Windows Platform. If you see a message "No Universal Windows Platform module loaded.", select Install with Unity Hub.
+● In the Build Settings window, select Universal Windows Platform. If you see a message "No Universal Windows Platform module loaded.", select Install with Unity Hub.
 
-Make sure the following settings are active:
+● Make sure the following settings are active:
 
-Architecture: ARM 64-bit
+● Architecture: ARM 64-bit
 
-Build Type: D3D Project
+● Build Type: D3D Project
 
-Target SDK Version: Latest Installed
+● Target SDK Version: Latest Installed
 
-Minimum Platform Version: 10.0.10240.0
+● Minimum Platform Version: 10.0.10240.0
 
-Visual Studio Version: Latest installed
+● Visual Studio Version: Latest installed
 
-Build and Run on: Local Machine
+● Build and Run on: Local Machine
 
-Build configuration: Release (there are known performance issues with Debug)
+● Build configuration: Release (there are known performance issues with Debug)
 
-Select the Switch Platform button. Unity displays a progress bar while it switches platforms.
+● Select the Switch Platform button. Unity displays a progress bar while it switches platforms.
 
-After the switch platform process is finished, click on Build and select an empty directory.
+● After the switch platform process is finished, click on Build and select an empty directory.
 
-Open that same directory and open _HoloTrainer.sln
+● Open that same directory and open _HoloTrainer.sln
 
-Configure Visual Studio for Hololens by selecting the Release configuration and the ARM64 architecture enter image description here
+● Configure Visual Studio for Hololens by selecting the Release configuration and the ARM64 architecture enter image description here
 
 ## NOTE: If you don't see "Device" as a target option in Visual Studio, you may need to change the startup project for the solution from the IL2CPP project to the UWP project. To do this, in the Solution Explorer, right-click [your project name](Universal Windows) and then select Set as StartUp Project. Before building to your device, the device must be in Developer Mode and paired with your development computer. See the section named "Enabling Developer Mode" on this page.
 
-Select the deployment target drop-down and then do one of the following: If you're building and deploying via USB, select Device.
-Connect your HoloLens to your computer, and then in Visual Studio, do one of the following:
+● Select the deployment target drop-down and then do one of the following: If you're building and deploying via USB, select Device.
+
+● Connect your HoloLens to your computer, and then in Visual Studio, do one of the following:
 To deploy to your HoloLens and automatically start the app without the Visual Studio debugger attached, select Debug > Start Without Debugging.
 
 enter image description here
